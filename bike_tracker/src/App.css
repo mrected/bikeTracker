@@ -7,3 +7,15 @@ body{
   background-color: var(--main-bg-color);
   color: var(--white);
 }
+
+.app{
+  width: 375px;
+  border: 1px solid orange;
+}
+
+.module{
+  padding:5px;
+  border: 1px solid var(--white);
+  border-radius: 15px;
+  margin: 10px;
+}
