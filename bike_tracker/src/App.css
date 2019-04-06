@@ -3,6 +3,10 @@
   --white: #dae4ef;
 }
 
+h2{
+  margin: 0;
+}
+
 body{
   background-color: var(--main-bg-color);
   color: var(--white);
@@ -10,12 +14,35 @@ body{
 
 .app{
   width: 375px;
-  border: 1px solid orange;
 }
 
 .module{
-  padding:5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
   border: 1px solid var(--white);
   border-radius: 15px;
   margin: 10px;
+}
+
+.module-title{
+  text-transform: uppercase;
+  font-weight: normal;
+  align-self: flex-start;
+}
+
+.module-info{
+  
+}
+
+.status-breakdown{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.status-breakdown td {
+  background: limegreen;
+  color: var(--main-bg-color);
+  border-radius: 5px;
+  padding: 2px;
 }
