@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import status from './svg/status.svg';
+import statusIcon from './svg/status.svg';
+import addMilesIcon from './svg/addMiles.svg';
+import updatePartsIcon from './svg/parts.svg';
+import distanceIcon from './svg/distance.svg';
+import timeIcon from './svg/time.svg';
+import locationIcon from './svg/location.svg';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +18,7 @@ class App extends Component {
         <section className="module">
           <div>
             <h2 className="module-title">status</h2>
-            <img src={status} alt="bike status"></img>
+            <img src={statusIcon} alt="bike status"></img>
           </div>
           <div className="module-info">
             <table className="status-breakdown">
@@ -46,11 +51,33 @@ class App extends Component {
         </section>
         <section className="module">
           <h2 className="module-title">track</h2>
-          <div className="module-info">info</div>
+          <div className="module-info">
+            <div className="info-box">
+              <img src={addMilesIcon} alt="add miles icon" />
+              <p className="info-box-title">Add Miles</p>
+            </div>
+            <div className="info-box">
+              <img src={updatePartsIcon} alt="update parts icon" />
+              <p className="info-box-title">Update Parts</p>
+            </div>
+          </div>
         </section>
         <section className="module">
           <h2 className="module-title">ride</h2>
-          <div className="module-info">info</div>
+          <div className="module-info">
+          <div className="info-box">
+              <img src={distanceIcon} alt="distance icon" />
+              <p className="info-box-title">Distance</p>
+            </div>
+            <div className="info-box">
+              <img src={timeIcon} alt="time icon" />
+              <p className="info-box-title">Time</p>
+            </div>
+            <div className="info-box">
+              <img src={locationIcon} alt="location icon" />
+              <p className="info-box-title">Location</p>
+            </div>
+          </div>
         </section>
       </div>
     );

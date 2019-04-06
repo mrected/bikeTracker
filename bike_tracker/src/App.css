@@ -1,9 +1,14 @@
 :root{
   --main-bg-color: #000f24;
   --white: #dae4ef;
+  --info-box-color: #00a6ff;
 }
 
 h2{
+  margin: 0;
+}
+
+p{
   margin: 0;
 }
 
@@ -32,7 +37,7 @@ body{
 }
 
 .module-info{
-  
+  display: flex;
 }
 
 .status-breakdown{
@@ -46,3 +51,22 @@ body{
   border-radius: 5px;
   padding: 2px;
 }
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--info-box-color);
+  color: var(--main-bg-color);
+  border-radius: 15px;
+  padding: 10px 5px 5px;
+  text-transform: uppercase;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 5px;
+}
+
+.info-box img{
+  height: 35px;
+}
+
