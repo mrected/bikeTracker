@@ -5,6 +5,8 @@ import updatePartsIcon from './svg/parts.svg';
 import distanceIcon from './svg/distance.svg';
 import timeIcon from './svg/time.svg';
 import locationIcon from './svg/location.svg';
+import weatherIcon from './svg/weather.svg';
+import accountIcon from './svg/account.svg';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +14,25 @@ class App extends Component {
     return (
       <div className="app">
         <h1>Bike Tracker</h1>
-        <section className="module">
-          <h2>current status</h2>
+        <section className="dashboard">
+          <div className="dash-row">
+            <div>
+              <img className="weather-icon" src={weatherIcon} alt="weather icon" />
+              <p>partly cloudy</p>
+            </div>
+            <div>
+              <img src={accountIcon} alt="account icon" />
+              <p>account</p>
+            </div>
+          </div>
+          <div className="dash-row">
+            <h2 className="module-title">Ride Conditions</h2>
+            <div className="status-bar">
+              <div className="status-light good"></div>
+              <div className="status-light warning"></div>
+              <div className="status-light danger"></div>
+            </div>
+          </div>
         </section>
         <section className="module">
           <div>

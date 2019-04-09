@@ -2,6 +2,9 @@
   --main-bg-color: #000f24;
   --white: #dae4ef;
   --info-box-color: #00a6ff;
+  --red: #f00;
+  --green: #00f200;
+  --yellow: #fff200;
 }
 
 h2{
@@ -19,6 +22,41 @@ body{
 
 .app{
   width: 375px;
+}
+
+.dash-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.weather-icon{
+  height: 55px;
+}
+
+.status-bar{
+  display: flex;
+}
+
+.status-light{
+  height: 20px;
+  width: 20px;
+  border: 2px solid;
+  border-radius: 25px;
+  margin:5px;
+}
+
+.status-light.good{
+  border-color: var(--green);
+}
+.status-light.warning{
+  border-color: var(--yellow);
+  background-color: var(--yellow);
+}
+.status-light.danger{
+  border-color: var(--red);
 }
 
 .module{
@@ -65,6 +103,7 @@ body{
   text-align: center;
   margin: 5px;
 }
+
 
 .info-box img{
   height: 35px;
