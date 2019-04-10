@@ -1,0 +1,110 @@
+[        
+    {
+        "id": 1,
+        "name": "bearings",
+        "condition":"good",
+        "purchased": "1",
+        "lastService": "1/2/19",
+        "milesUntilService": "250",
+        "milesUntilReplace": "540"
+    },
+    {
+        "id": 2,
+        "name": "fasteners",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":3,
+        "name": "suspension",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":4,
+        "name": "handlebars",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":5,
+        "name": "tires",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":6,
+        "name": "brakes",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":7,
+        "name": "tubes",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":8,
+        "name": "frame",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":9,
+        "name": "pressure",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":10,
+        "name": "wheels",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":11,
+        "name": "drivetrain",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    },
+    {
+        "id":12,
+        "name": "cables",
+        "condition":"warning",
+        "purchased": "3/4/17",
+        "lastService": "1/8/18",
+        "milesUntilService": "10",
+        "milesUntilReplace": "1000"
+    }
+]

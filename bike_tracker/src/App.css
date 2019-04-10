@@ -2,6 +2,7 @@
   --main-bg-color: #000f24;
   --white: #dae4ef;
   --info-box-color: #00a6ff;
+  --info-box-hover: #97daf8;
   --red: #f00;
   --green: #00f200;
   --yellow: #fff200;
@@ -79,29 +80,42 @@ body{
 }
 
 .status-breakdown{
+  display: flex;
+  flex-wrap: wrap;
   text-transform: uppercase;
   text-align: center;
+  width: 216px;
 }
 
-.status-breakdown td {
-  background: limegreen;
+.status-cell {
+  background: var(--green);
   color: var(--main-bg-color);
   border-radius: 5px;
   padding: 2px;
+  margin: 2px;
+  width:100px;
 }
 
 .info-box{
   display: flex;
   flex-direction: column;
-  background-color: var(--info-box-color);
   color: var(--main-bg-color);
+  background-color: var(--info-box-color);
   border-radius: 15px;
   padding: 10px 5px 5px;
   text-transform: uppercase;
   width: 80px;
   height: 80px;
   text-align: center;
-  margin: 5px;
+  margin: 2px;
+}
+
+.info-box:link, .info-box:active, .info-box:visited{
+  background-color: var(--info-box-color);
+}
+
+.info-box:hover{
+  background-color: var(--info-box-hover);
 }
 
 
