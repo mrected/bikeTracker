@@ -61,10 +61,7 @@ class App extends Component {
             </div>
             <div className="module-info">
               <div className="status-breakdown">
-
                 {StatusData.map((item, i) => <div className="status-cell" index={item.id}>{item.name}</div>)}
-                {/* add a row for every 2 td cells */}
-
               </div>
             </div>
           </section>
