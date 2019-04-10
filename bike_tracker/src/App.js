@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link} from 'react-router-dom'
+import { BrowserRouter as Link} from 'react-router-dom'
 
 import StatusData from './data/statusData.json';
 
@@ -11,8 +11,6 @@ import timeIcon from './svg/time.svg';
 import locationIcon from './svg/location.svg';
 import weatherIcon from './svg/weather.svg';
 import accountIcon from './svg/account.svg';
-
-import Status from './components/Status';
 
 import './App.css';
 
@@ -33,7 +31,6 @@ class App extends Component {
     return (
       <div className="app">
         <h1>Bike Tracker</h1>
-        <Router>
           <section className="dashboard">
             <div className="dash-row">
               <div>
@@ -61,7 +58,7 @@ class App extends Component {
             </div>
             <div className="module-info">
               <div className="status-breakdown">
-                {StatusData.map((item, i) => <div className="status-cell" index={item.id}>{item.name}</div>)}
+                {StatusData.map( item => <Link to="/status"><div className="status-cell" index={item.id}>{item.name}</div></Link>)}
               </div>
             </div>
           </section>
@@ -95,7 +92,6 @@ class App extends Component {
               </div>
             </div>
           </section>
-        </Router>
       </div>
     );
   }
