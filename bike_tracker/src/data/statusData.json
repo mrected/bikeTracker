@@ -6,7 +6,17 @@
         "purchased": "1",
         "lastService": "1/2/19",
         "milesUntilService": "250",
-        "milesUntilReplace": "540"
+        "milesUntilReplace": "540",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id": 2,
@@ -15,7 +25,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":3,
@@ -24,7 +44,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":4,
@@ -42,7 +72,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":6,
@@ -51,7 +91,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":7,
@@ -60,7 +110,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":8,
@@ -69,7 +129,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":9,
@@ -78,7 +148,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":10,
@@ -87,7 +167,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":11,
@@ -96,7 +186,17 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     },
     {
         "id":12,
@@ -105,6 +205,16 @@
         "purchased": "3/4/17",
         "lastService": "1/8/18",
         "milesUntilService": "10",
-        "milesUntilReplace": "1000"
+        "milesUntilReplace": "1000",
+        "difficulty": 2,
+        "time": "1hr",
+        "tools": [
+            "Lint free rag",
+            "Bearing Grease",
+            "Degreaser",
+            "15 or 17mm wrench",
+            "Cone Wrench",
+            "Freewheel or cassette removal tools"
+        ]
     }
 ]
