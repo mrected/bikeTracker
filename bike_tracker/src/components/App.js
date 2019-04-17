@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Link} from 'react-router-dom'
 
-import StatusData from './data/statusData.json';
+import StatusData from '../data/statusData.json';
 
-import statusIcon from './svg/status.svg';
-import addMilesIcon from './svg/addMiles.svg';
-import updatePartsIcon from './svg/parts.svg';
-import distanceIcon from './svg/distance.svg';
-import timeIcon from './svg/time.svg';
-import locationIcon from './svg/location.svg';
-import weatherIcon from './svg/weather.svg';
-import accountIcon from './svg/account.svg';
+import statusIcon from '../svg/status.svg';
+import addMilesIcon from '../svg/addMiles.svg';
+import updatePartsIcon from '../svg/parts.svg';
+import distanceIcon from '../svg/distance.svg';
+import timeIcon from '../svg/time.svg';
+import locationIcon from '../svg/location.svg'
+import weatherIcon from '../svg/weather.svg';
+import accountIcon from '../svg/account.svg';
 
-import './App.css';
+import Status from './Status'
+
 
 class App extends Component {
 
@@ -26,6 +27,7 @@ class App extends Component {
   
 
   render() {
+
 
 
     return (
@@ -58,7 +60,7 @@ class App extends Component {
             </div>
             <div className="module-info">
               <div className="status-breakdown">
-                {StatusData.map( item => <Link to="/status"><div className="status-cell" index={item.id}>{item.name}</div></Link>)}
+                {StatusData.map( (item, key) => <Link key={key} to={Status}><div className="status-cell" index={item.id}>{item.name}</div></Link>)}
               </div>
             </div>
           </section>
