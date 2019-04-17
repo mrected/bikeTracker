@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import StatusData from '../data/statusData.json';
 
@@ -22,6 +22,12 @@ class App extends Component {
     this.state = {
       
     }
+  }
+
+  _statusButton = (e) => {
+    e.preventDefault()
+    const statusName = e.target.textContent
+    this.props.history.push(`/status/${statusName}`)
   }
 
   
@@ -60,7 +66,9 @@ class App extends Component {
             </div>
             <div className="module-info">
               <div className="status-breakdown">
-                {StatusData.map( (item, key) => <Link key={key} to={Status}><div className="status-cell" index={item.id}>{item.name}</div></Link>)}
+                {/* {StatusData.map( (item, key) => <Link key={key} to={Status}><div className="status-cell" index={item.id}>{item.name}</div></Link>)} */}
+                {/* each link needs to open the status component and pass the correct info to if via props and display in status */}
+                {StatusData.map( item => <Link key={item.id} to="/status"><div className="status-cell" index={item.id}>{item.name}</div></Link>)}
               </div>
             </div>
           </section>
