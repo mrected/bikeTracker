@@ -4,10 +4,21 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Main from './Main'
 import Status from './Status'
 
+import statusData from '../data/statusData.json'
+
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      status: []
+    }
+  }
+
+  componentDidMount(){
+    this.setState({
+      status: statusData
+    })
+
   }
 
   _statusButton = e => {
@@ -17,11 +28,11 @@ class App extends Component {
   }
 
   render() {
-    return (
+    return ( 
       <Router>
         <Switch>
-          <Route exact path="/" component={Main} />
-          <Route path="/status" component={Status} />
+          <Route exact path="/" component={(props) => <Main {...this.state.status} />} />
+          <Route path="/status" component={(props) => <Status {...props} />} />
         </Switch>
       </Router>
     )
