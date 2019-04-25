@@ -14,7 +14,6 @@ class Main extends Component {
 
   
   render() {
-    console.log(this.props)
     return (
       <div className="app">
         <h1>Bike Tracker</h1>
@@ -49,10 +48,10 @@ class Main extends Component {
           </div>
           <div className="module-info">
             <div className="status-breakdown">
-              {Object.values(this.props).map(item => (
-                <Link key={item.id} to="/status">
-                  <div className="status-cell" index={item.id}>
-                    {item.name}
+              {this.props.statusNames.map((name, key) => (
+                <Link key={key} to="/status">
+                  <div className="status-cell" index={key}>
+                    {name}
                   </div>
                 </Link>
               ))}

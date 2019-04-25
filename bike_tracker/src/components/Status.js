@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class Status extends Component {
 
-    statusName = () => this.props.match.params.statusName
 
     render() {
         return (
@@ -16,7 +15,7 @@ class Status extends Component {
                     "milesUntilReplace": "1000" */}
                     <div>
                         <p>image</p>
-                        <h2 className="module-title">{this.statusName}</h2>
+                        <h2 className="module-title">name</h2>
                     </div>
                     <div>
                         <div className="status-bar">
