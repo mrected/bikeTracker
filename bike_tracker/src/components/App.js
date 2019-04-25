@@ -23,20 +23,21 @@ class App extends Component {
   }
 
 
-  _statusButton = e => {
+  _statusButton = (e) => {
     e.preventDefault()
-    const statusName = e.target.textContent
-    this.props.history.push(`/status/${statusName}`)
+    console.log(e.target.textContent)
   }
 
-  // need to pass status names only to Main
-  // when status button on main is clicked, need to pass selected status object to Status component
 
   render() {
     return ( 
       <Router>
         <Switch>
-          <Route exact path="/" component={(props) => <Main statusNames = {this.state.status.map(item => item.name)} />} />
+          <Route 
+            exact path="/" component={(props) => <Main 
+              statusNames = {this.state.status.map(item => item.name)}
+              _statusButton = {this._statusButton}
+          />} />
           <Route path="/status" component={(props) => <Status {...props} />} />
         </Switch>
       </Router>

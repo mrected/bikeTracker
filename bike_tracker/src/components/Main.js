@@ -50,7 +50,7 @@ class Main extends Component {
             <div className="status-breakdown">
               {this.props.statusNames.map((name, key) => (
                 <Link key={key} to="/status">
-                  <div className="status-cell" index={key}>
+                  <div className="status-cell" onClick = {(key) => {this.props._statusButton(key)}}index={key}>
                     {name}
                   </div>
                 </Link>
