@@ -19,13 +19,13 @@ class App extends Component {
     this.setState({
       status: statusData
     })
-
   }
 
 
   _statusButton = (e) => {
     e.preventDefault()
     console.log(e.target.textContent)
+    // populate the 
   }
 
 
@@ -38,7 +38,7 @@ class App extends Component {
               statusNames = {this.state.status.map(item => item.name)}
               _statusButton = {this._statusButton}
           />} />
-          <Route path="/status" component={(props) => <Status {...props} />} />
+          <Route path="/status" component={(props) => <Status details={{...this.state.status[2]}}/>} />
         </Switch>
       </Router>
     )
